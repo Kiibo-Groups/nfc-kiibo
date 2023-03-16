@@ -3,9 +3,17 @@
     color: black;
     font-family: 'Overpass', sans-serif;
 }
+input{
+    border: 0px !important;
+    background-color: #F7F7F7 !important;
+    padding: 10px !important;
+}
 
 .info{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+:root {
+    --animate-delay: 5s;
+  }

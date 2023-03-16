@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LoginRegistroComponent } from './login-registro.component';
+import { SocialMediaComponent } from './social-media.component';
 
-describe('LoginRegistroComponent', () => {
-  let component: LoginRegistroComponent;
-  let fixture: ComponentFixture<LoginRegistroComponent>;
+describe('SocialMediaComponent', () => {
+  let component: SocialMediaComponent;
+  let fixture: ComponentFixture<SocialMediaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LoginRegistroComponent ]
+      declarations: [ SocialMediaComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LoginRegistroComponent);
+    fixture = TestBed.createComponent(SocialMediaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

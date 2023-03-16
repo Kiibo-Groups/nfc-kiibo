@@ -6,6 +6,7 @@ import { RegistroComponent } from './components/registro/registro.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
 import { LoginRegistroComponent } from './components/login-registro/login-registro.component';
+import { SocialMediaComponent } from './components/social-media/social-media.component';
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: 'registroUser',
     component: LoginRegistroComponent
+  },
+  {
+    path: 'socialMedia',
+    component: SocialMediaComponent
   },
   {
     path: 'reset',

@@ -3,7 +3,7 @@
         
         <div class="col-md-6 info">
             
-            <div class="info-center animate__animated animate__backInDown">
+            <div class="info-center animate__animated animate__backInUp">
                 <div class="d-grid-gap-2 col-12 pt-5">
                     <h1 class="fw-bold">
                         <button class="btn btn-outline-light border  border-0 p-3 fw-bold" type="button"
@@ -11,17 +11,16 @@
                             <i class="bi bi-chevron-left"></i>
                         </button>
                     </h1>
-                    <p class="pt-3 fs-4">¡Bueno tenerte de vuelta!</p>
+                    <p class="pt-3 fs-4"><b>00021555</b> es tu usuario!</p>
+                    <h1 class="fw-bold">Creando nueva cuenta.</h1>
                 </div>
                 <div class="d-grid-gap-2 col-12 pt-5">
                     <form class="row g-3">
                         <div class="col-auto">
-                            <label for="inputPassword2" class="visually-hidden">Password</label>
-                            <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                            <input type="email" class="form-control" id="emailInput" placeholder="Correo electrónico">
                         </div>
                         <div class="col-auto">
-                          <label for="inputPassword2" class="visually-hidden">Password</label>
-                          <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                          <input type="password" class="form-control" id="passwordInput" placeholder="Contraseña">
                         </div>
                         <div class="col-auto esay">
                           <button type="button" class="btn btn-primary">
@@ -31,24 +30,13 @@
                     </form>
                 </div>
     
-                <div class="d-grid gap-2 col-12 mt-0">
-                    <a [routerLink]="['/reset']">Recuperar contraseña</a>
-                </div>
-    
                 <div class="d-grid gap-2 col-12 mt-4">
                     <button class="btn btn-primary pt-2" type="button">
                         <i class="bi bi-google text-white"></i>
                         Iniciar con Google
                     </button>
-                    <button class="btn btn-dark pt-2 visually-hidden" type="button">
+                    <button class="btn btn-dark pt-2" type="button" [routerLink]="['/socialMedia']">
                         Iniciar sesión
-                    </button>
-                </div>
-
-                <div class="d-grid gap-2 col-4"> o
-                    <button class="btn btn-ligth border fixed fw-bold pt-2" type="button"
-                    [routerLink]="['/registro']">
-                        Regstrarte
                     </button>
                 </div>
             </div>
