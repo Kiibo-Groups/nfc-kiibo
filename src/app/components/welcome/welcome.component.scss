@@ -1,0 +1,57 @@
+.welcome{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    .bi-yelp{
+        font-size: 100px;
+        animation-name: aumentar;
+        animation-duration: 2.5s;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-fill-mode: none;
+        animation-play-state: running;
+    }
+
+    @keyframes aumentar {
+        0%{
+            color: #5f77ff;
+        }
+        50%{
+            color: #96a6fd;
+        }
+        100%{
+            color: #bdc6fd;            
+        }
+        
+    }
+
+
+
+}
+
+.button {
+    .btn-indigo-accent{
+        /*background-color: #8c9eff !important;*/
+        border-color: #8c9eff !important;
+        color: #8c9eff !important;
+        padding-left: 120px !important;
+        padding-right: 120px !important;
+
+        padding-top: 12px;
+        padding-bottom: 10px;
+        border-radius: 15px;
+        transition: 1.5s;
+    }
+    .btn-indigo-accent:hover{
+        background-color: #8c9eff !important;
+        color: #FFFFFF !important;
+        transition: 2s;
+        border-color: transparent !important;
+    }
+}
+
