@@ -7,6 +7,8 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
+import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
+import { LoginRegistroComponent } from './components/login-registro/login-registro.component';
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import { HomeComponent } from './components/home/home.component';
     RegistroComponent,
     LoginComponent,
     HomeComponent,
+    ResetPasswordComponent,
+    LoginRegistroComponent,
   ],
   imports: [
     BrowserModule,

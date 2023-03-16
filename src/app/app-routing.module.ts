@@ -4,6 +4,8 @@ import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
+import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
+import { LoginRegistroComponent } from './components/login-registro/login-registro.component';
 
 const routes: Routes = [
   {
@@ -21,6 +23,14 @@ const routes: Routes = [
   {
     path: 'registro',
     component: RegistroComponent
+  },
+  {
+    path: 'registroUser',
+    component: LoginRegistroComponent
+  },
+  {
+    path: 'reset',
+    component: ResetPasswordComponent
   }
 ];
 
